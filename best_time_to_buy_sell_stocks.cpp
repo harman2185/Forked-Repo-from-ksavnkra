@@ -24,6 +24,6 @@ int main()
             sell_day = i;
         }
     }
-    cout << "You should have bought on day " << buy_day + 1 << " when it was of Rs." << min << " and sell it on day " << sell_day + 1 << " when it was of Rs." << max;
+    cout << "You should have bought on day " << buy_day + 1;
     return 0;
 }
