@@ -21,7 +21,6 @@ int main()
         if (nums[i] > max)
         {
             max = nums[i];
-            sell_day = i;
         }
     }
     cout << "You should have bought on day " << buy_day + 1;
